@@ -7,13 +7,7 @@
 <script>
 export default {
     name: 'Character',
-    props: ['location-x', 'location-y'],
-    data: function () {
-        return {
-            x: 0,
-            y: 0
-        }
-    }
+    props: ['location-x', 'location-y']
 }
 </script>
 
